@@ -1,0 +1,178 @@
+
+/* -------------- HEADER ------------ */
+
+.home {
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    border-bottom: 1px solid #EDEEF2;
+}
+
+.navbar .navbar-brand {
+    /* border: 1px solid red; */
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.navbar .navbar-brand span {
+    color: #4E60FF;
+}
+
+.nav-content {
+    /* border: 1px solid red; */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content form input {
+    border-radius: 10px;
+    width: 224px;
+    background: #EDEEF2;
+    padding: 5px 28px 5px 8px;
+}
+
+form i {
+    position: absolute;
+    bottom: 20px;
+    left: 33.3%;
+    color: #999;
+    font-size: 14px;
+}
+
+.right-nav .nav {
+    margin-right: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.right-nav .nav  li a{
+    color: #2B2B43;
+    font-size: 14px;
+    font-family: 'Nunito' sans-serif;
+    font-weight: bold;
+}
+
+.right-nav .nav li:nth-child(2) {
+    border-right: 3px solid rgb(238, 236, 236);
+}
+
+.right-nav .message {
+    
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F4FF;
+    margin-right: 16px;
+}
+
+.right-nav .message:hover {
+    border: 3px solid #4E60FF;
+    cursor: pointer;
+}
+
+.right-nav .message .bi {
+    color: #4E60FF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right-nav .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-image: url('../img/avatar.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right-nav .avatar img {
+    border: 1px solid #111;
+    width: 40px;
+    height: 40px;
+    
+}
+
+/* -------------- HEADER END------------ */
+
+
+/* -------------- MAIN ------------ */
+
+.main-top {
+    border: 1px solid red;
+    min-height: 190px;
+}
+
+.main-top .deserts-top {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-top .deserts-top .deserts-left {
+    width: 580px;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deserts-left .card-left {
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/home-img.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.deserts-left .card-right {
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.card-right .card-title {
+    
+}
+
+.card-right .card-percent {
+    color: #4E60FF;
+}
+
+.card-right .bottom-title {
+
+}
+
+.main-top .deserts-top .deserts-right {
+    width: 580px;
+    height: auto;
+}
+
+.main-top .deserts-top .deserts-left .card-left {
+
+}
+
+.main-top .deserts-top .deserts-left .card-rigth {
+
+}
+
+
+
+
+
+
+
+/* -------------- MAIN END ------------ */
+
