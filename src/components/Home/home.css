@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Orbitron:wght@400;500&display=swap');
 /* -------------- HEADER ------------ */
 
 .home {
@@ -53,7 +53,7 @@ form i {
     align-items: center;
 }
 
-.right-nav .nav  li a{
+.right-nav .nav li a {
     color: #2B2B43;
     font-size: 14px;
     font-family: 'Nunito' sans-serif;
@@ -65,7 +65,7 @@ form i {
 }
 
 .right-nav .message {
-    
+
     width: 48px;
     height: 48px;
     border-radius: 12px;
@@ -101,7 +101,7 @@ form i {
     border: 1px solid #111;
     width: 40px;
     height: 40px;
-    
+
 }
 
 /* -------------- HEADER END------------ */
@@ -115,64 +115,106 @@ form i {
 }
 
 .main-top .deserts-top {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin: 20px 0 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .main-top .deserts-top .deserts-left {
-    width: 580px;
+    width: 630px;
     height: 190px;
     display: flex;
     justify-content: space-between;
+    border-radius: 16px;
+    background: #F3F4FF;
+    margin: 0px 0 35px 0;
 }
 
-.deserts-left .card-left {
+.card-left {
     width: 50%;
     height: 100%;
-    background-image: url('../img/home-img.png');
+    /* background-image: url('../img/home-img.png'); */
     background-position: center;
     background-size: cover;
 }
 
+
 .deserts-left .card-right {
     width: 50%;
     height: 100%;
-    padding: 15px;
+    padding: 24px;
     font-weight: bold;
 }
 
 .card-right .card-title {
-    
+    /* border: 1px solid red; */
+    color: #2B2B43;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    margin-bottom: 8px;
 }
 
 .card-right .card-percent {
     color: #4E60FF;
+    font-size: 40px;
+    margin-bottom: 36px;
 }
 
 .card-right .bottom-title {
-
+    font-size: 14px;
+    color: #83859C;
 }
 
 .main-top .deserts-top .deserts-right {
-    width: 580px;
+    width: 630px;
     height: auto;
-}
-
-.main-top .deserts-top .deserts-left .card-left {
+    /* border: 1px solid red; */
 
 }
 
-.main-top .deserts-top .deserts-left .card-rigth {
+.main-top .deserts-bottom {
+    border: 1px solid blue;
+    width: 100%;
+    min-height: 10vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deserts-bottom .item {
+    border: 2px solid #EDEEF2;
+    width: 190px;
+    height: 90px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background: #F8F9FF;
 
 }
 
+.deserts-bottom .item .item-icon{
+    /* border: 1px solid blue; */
+    width: 35px;
+    height: 35px;  
+}
 
+.deserts-bottom .item:hover{
+    border: 3px solid #4E60FF;
+    background: #F3F4FF;
+}
 
-
+.deserts-bottom .item .item-title{
+    /* border: 1px solid #545563; */
+    font-size: 13px;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
 
 
 
 /* -------------- MAIN END ------------ */
-
