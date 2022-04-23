@@ -59,7 +59,7 @@ const Main = () => {
                 className="deserts-left"
               >
                 <div className="card-left">
-                  <img src={item.image} alt="" />
+                  <img width={"100%"} height={"100%"} src={item.image} alt="" />
                 </div>
                 <div className="card-right">
                   <p className="card-title">{item.cardTitle}</p>
@@ -100,8 +100,8 @@ const Main = () => {
                         </h5>
                         <p className="card-text">
                           <i className="bi bi-clock"></i>
-                          <span>{item.cardTime}</span>
-                          <span>
+                          <span className="info">{item.cardTime}</span>
+                          <span className="info">
                             <li>{item.cardCoint}</li>
                           </span>
                         </p>
