@@ -2,18 +2,15 @@
 /* -------------- HEADER ------------ */
 
 .home {
-    /* border: 2px solid red; */
     width: 100%;
     min-height: 100vh;
 }
 
 .navbar {
-    /* border: 1px solid red; */
     border-bottom: 1px solid #EDEEF2;
 }
 
 .navbar .navbar-brand {
-    /* border: 1px solid red; */
     font-size: 18px;
     font-weight: bold;
     line-height: 18px;
@@ -24,7 +21,6 @@
 }
 
 .nav-content {
-    /* border: 1px solid red; */
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -56,7 +52,7 @@ form i {
 .right-nav .nav li a {
     color: #2B2B43;
     font-size: 14px;
-    font-family: 'Nunito' sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 
@@ -114,12 +110,10 @@ form i {
 /* -------------- MAIN ------------ */
 
 .main-top {
-    /* border: 1px solid blue; */
     min-height: 190px;
 }
 
 .main-top .deserts-top {
-    /* border: 1px solid red; */
     margin: 20px 0 0 0;
     display: flex;
     flex-wrap: wrap;
@@ -157,7 +151,6 @@ form i {
 }
 
 .card-right .card-title {
-    /* border: 1px solid red; */
     color: #2B2B43;
     font-size: 20px;
     letter-spacing: 0.1px;
@@ -178,12 +171,9 @@ form i {
 .main-top .deserts-top .deserts-right {
     width: 630px;
     height: auto;
-    /* border: 1px solid red; */
-
 }
 
 .main-top .deserts-bottom {
-    /* border: 1px solid blue; */
     width: 100%;
     min-height: 10vh;
     padding: 10px 0;
@@ -207,19 +197,17 @@ form i {
 
 }
 
-.deserts-bottom .item .item-icon{
-    /* border: 1px solid blue; */
+.deserts-bottom .item .item-icon {
     width: 35px;
-    height: 35px;  
+    height: 35px;
 }
 
-.deserts-bottom .item:hover{
+.deserts-bottom .item:hover {
     border: 3px solid #4E60FF;
     background: #F3F4FF;
 }
 
-.deserts-bottom .item .item-title{
-    /* border: 1px solid #545563; */
+.deserts-bottom .item .item-title {
     font-size: 13px;
     font-family: 'Nunito';
     font-weight: 700;
@@ -228,7 +216,6 @@ form i {
 /* -------------- MAIN-CONTAINER ---------- */
 
 .main-container .main-title {
-    /* border: 1px solid red; */
     padding: 20px 0;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
@@ -236,7 +223,6 @@ form i {
 }
 
 .main-container .main-content {
-    /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -250,7 +236,6 @@ form i {
 }
 
 .main-card .img-top {
-    /* border: 1px solid blue; */
     height: 160px;
 }
 
@@ -271,6 +256,7 @@ form i {
 .card-body .card-title span {
     color: #2B2B43;
 }
+
 .card-body .card-title i {
     color: #C7C8D2;
 }
@@ -287,12 +273,10 @@ form i {
     border-radius: 20px;
     width: 120px;
     display: flex;
-    /* justify-content: space-around; */
     padding: 4px 12px;
 }
 
 .card-body .btns .ico {
-    /* border: 1px solid red; */
     width: 20px;
     height: 20px;
     display: flex;
@@ -313,42 +297,38 @@ form i {
 
 @media only screen and (max-width: 992px) and (min-width:768px) {
     .home {
-        border: 2px solid red;
         width: 100%;
         min-height: 100vh;
     }
-    
+
     .navbar {
-        /* border: 1px solid red; */
         border-bottom: 1px solid #EDEEF2;
     }
-    
+
     .navbar .navbar-brand {
-        /* border: 1px solid red; */
         font-size: 18px;
         font-weight: bold;
         line-height: 18px;
     }
-    
+
     .navbar .navbar-brand span {
         color: #4E60FF;
     }
-    
+
     .nav-content {
-        /* border: 1px solid red; */
         width: 85%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .nav-content form input {
         border-radius: 10px;
         width: 224px;
         background: #EDEEF2;
         padding: 5px 28px 5px 8px;
     }
-    
+
     form i {
         position: absolute;
         bottom: 20px;
@@ -356,27 +336,27 @@ form i {
         color: #999;
         font-size: 14px;
     }
-    
+
     .right-nav .nav {
         margin-right: 24px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
-    
+
     .right-nav .nav li a {
         color: #2B2B43;
         font-size: 14px;
-        font-family: 'Nunito' sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: bold;
     }
-    
+
     .right-nav .nav li:nth-child(2) {
         border-right: 3px solid rgb(238, 236, 236);
     }
-    
+
     .right-nav .message {
-    
+
         width: 48px;
         height: 48px;
         border-radius: 12px;
@@ -386,18 +366,18 @@ form i {
         background: #F3F4FF;
         margin-right: 16px;
     }
-    
+
     .right-nav .message:hover {
         border: 3px solid #4E60FF;
         cursor: pointer;
     }
-    
+
     .right-nav .message .bi {
         color: #4E60FF;
         font-weight: bold;
         font-size: 18px;
     }
-    
+
     .right-nav .avatar {
         width: 48px;
         height: 48px;
@@ -407,34 +387,34 @@ form i {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
+
     .right-nav .avatar img {
         border: 1px solid #111;
         width: 40px;
         height: 40px;
-    
+
     }
 
     .hamburger-menu {
         display: none;
     }
-    
+
     /* -------------- HEADER END------------ */
-    
-    
+
+
     /* -------------- MAIN ------------ */
-    
+
     .main-top {
         min-height: 190px;
     }
-    
+
     .main-top .deserts-top {
         margin: 20px 0 0 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .main-top .deserts-top .deserts-left {
         width: 48%;
         height: 190px;
@@ -444,50 +424,50 @@ form i {
         background: #F3F4FF;
         margin: 0px 0 35px 0;
     }
-    
+
     .card-left {
         width: 48%;
         height: 100%;
         background-position: center;
         background-size: cover;
     }
-    
+
     .card-left img {
         object-fit: cover contain;
     }
-    
-    
+
+
     .deserts-left .card-right {
         width: 50%;
         height: 100%;
         padding: 24px;
         font-weight: bold;
     }
-    
+
     .card-right .card-title {
         color: #2B2B43;
         font-size: 20px;
         letter-spacing: 0.1px;
         margin-bottom: 8px;
     }
-    
+
     .card-right .card-percent {
         color: #4E60FF;
         font-size: 40px;
         margin-bottom: 36px;
     }
-    
+
     .card-right .bottom-title {
         font-size: 14px;
         color: #83859C;
     }
-    
+
     .main-top .deserts-top .deserts-right {
         width: 630px;
         height: auto;
-    
+
     }
-    
+
     .main-top .deserts-bottom {
         width: 100%;
         min-height: 10vh;
@@ -496,7 +476,7 @@ form i {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .deserts-bottom .item {
         border: 2px solid #EDEEF2;
         width: 190px;
@@ -509,79 +489,80 @@ form i {
         gap: 10px;
         background: #F8F9FF;
         margin: 10px 0;
-    
+
     }
-    
-    .deserts-bottom .item .item-icon{
+
+    .deserts-bottom .item .item-icon {
         width: 35px;
-        height: 35px;  
+        height: 35px;
     }
-    
-    .deserts-bottom .item:hover{
+
+    .deserts-bottom .item:hover {
         border: 3px solid #4E60FF;
         background: #F3F4FF;
     }
-    
-    .deserts-bottom .item .item-title{
+
+    .deserts-bottom .item .item-title {
         font-size: 13px;
         font-family: 'Nunito';
         font-weight: 700;
     }
-    
+
     /* -------------- MAIN-CONTAINER ---------- */
-    
+
     .main-container .main-title {
         padding: 20px 0;
         font-size: 20px;
         font-family: 'Nunito', sans-serif;
         color: #2B2B43;
     }
-    
+
     .main-container .main-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .main-content .main-card {
         border: 1px solid #EDEEF2;
         width: 25.5rem;
         border-radius: 16px;
         margin-bottom: 30px;
     }
-    
+
     .main-card .img-top {
         height: 160px;
     }
-    
+
     .main-card img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 16px 16px 0 0;
     }
-    
+
     .main-card .card-body .card-title {
         display: flex;
         justify-content: space-between;
         font-size: 18px;
         font-weight: 700;
     }
-    
+
     .card-body .card-title span {
         color: #2B2B43;
     }
+
     .card-body .card-title i {
         color: #C7C8D2;
     }
-    
+
     .main-card .card-body .card-text {
         display: flex;
         gap: 10px;
         color: #83859C;
         font-weight: 400;
     }
-    
+
     .card-body .btns {
         background: #EDEEF2;
         border-radius: 20px;
@@ -589,7 +570,7 @@ form i {
         display: flex;
         padding: 4px 12px;
     }
-    
+
     .card-body .btns .ico {
         width: 20px;
         height: 20px;
@@ -597,14 +578,14 @@ form i {
         align-items: center;
         margin-right: 10px;
     }
-    
+
     .ico img {
         object-fit: cover;
     }
-    
+
     /* -------------- MAIN-CONTAINER END------- */
     /* -------------- MAIN END ------------ */
-    
+
 }
 
 
@@ -618,35 +599,34 @@ form i {
         width: 100%;
         min-height: 100vh;
     }
-    
-    .navbar {
-        border: 1px solid red;
-    }
-    
+
+    /* .navbar {
+    } */
+
     .navbar .navbar-brand {
         font-size: 17px;
         font-weight: bold;
         line-height: 18px;
     }
-    
+
     .navbar .navbar-brand span {
         color: #4E60FF;
     }
-    
+
     .nav-content {
         width: 85%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .nav-content form input {
         border-radius: 10px;
         width: 190px;
         background: #EDEEF2;
         padding: 5px 10px 5px 8px;
     }
-    
+
     form i {
         position: absolute;
         bottom: 20px;
@@ -654,26 +634,26 @@ form i {
         color: #999;
         font-size: 14px;
     }
-    
+
     .right-nav .nav {
         margin-right: 24px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
-    
+
     .right-nav .nav li a {
         color: #2B2B43;
-        padding: 5px 10px ;
+        padding: 5px 10px;
         font-size: 14px;
-        font-family: 'Nunito' sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: bold;
     }
-    
+
     .right-nav .nav li:nth-child(2) {
         border-right: 3px solid rgb(238, 236, 236);
     }
-    
+
     .right-nav .message {
         width: 46px;
         height: 46px;
@@ -684,18 +664,18 @@ form i {
         background: #F3F4FF;
         margin-right: 16px;
     }
-    
+
     .right-nav .message:hover {
         border: 3px solid #4E60FF;
         cursor: pointer;
     }
-    
+
     .right-nav .message .bi {
         color: #4E60FF;
         font-weight: bold;
         font-size: 18px;
     }
-    
+
     .right-nav .avatar {
         width: 46px;
         height: 46px;
@@ -705,35 +685,35 @@ form i {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
+
     .right-nav .avatar img {
         border: 1px solid #111;
         width: 40px;
         height: 40px;
-    
+
     }
 
     .hamburger-menu {
         display: none;
     }
 
-    
+
     /* -------------- HEADER END------------ */
-    
-    
+
+
     /* -------------- MAIN ------------ */
-    
+
     .main-top {
         min-height: 190px;
     }
-    
+
     .main-top .deserts-top {
         margin: 20px 0 0 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .main-top .deserts-top .deserts-left {
         width: 48%;
         height: 150px;
@@ -742,7 +722,7 @@ form i {
         border-radius: 16px;
         background: #F3F4FF;
     }
-    
+
     .card-left {
         width: 50%;
         height: 100%;
@@ -750,44 +730,43 @@ form i {
         background-position: center;
         background-size: cover;
     }
-    
+
     .card-left img {
         object-fit: cover contain;
     }
-    
-    
+
+
     .deserts-left .card-right {
         width: 50%;
         height: 100%;
         padding: 10px;
         font-weight: bold;
     }
-    
+
     .card-right .card-title {
         color: #2B2B43;
         font-size: 18px;
         letter-spacing: 0.1px;
         margin-bottom: 8px;
     }
-    
+
     .card-right .card-percent {
         color: #4E60FF;
         font-size: 36px;
         margin-bottom: 30px;
     }
-    
+
     .card-right .bottom-title {
         font-size: 14px;
         color: #83859C;
     }
-    
+
     .main-top .deserts-top .deserts-right {
         width: 630px;
         height: auto;
-        border: 1px solid red;
-    
+
     }
-    
+
     .main-top .deserts-bottom {
         width: 100%;
         min-height: 10vh;
@@ -796,7 +775,7 @@ form i {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .deserts-bottom .item {
         border: 2px solid #EDEEF2;
         width: 190px;
@@ -809,72 +788,73 @@ form i {
         gap: 10px;
         background: #F8F9FF;
         margin: 10px 0;
-    
+
     }
-    
-    .deserts-bottom .item .item-icon{
+
+    .deserts-bottom .item .item-icon {
         width: 35px;
-        height: 35px;  
+        height: 35px;
     }
-    
-    .deserts-bottom .item:hover{
+
+    .deserts-bottom .item:hover {
         border: 3px solid #4E60FF;
         background: #F3F4FF;
     }
-    
-    .deserts-bottom .item .item-title{
+
+    .deserts-bottom .item .item-title {
         font-size: 13px;
         font-family: 'Nunito';
         font-weight: 700;
     }
-    
+
     /* -------------- MAIN-CONTAINER ---------- */
-    
+
     .main-container .main-title {
         padding: 20px 0;
         font-size: 19px;
         font-family: 'Nunito', sans-serif;
         color: #2B2B43;
     }
-    
+
     .main-container .main-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .main-content .main-card {
         border: 1px solid #EDEEF2;
         width: 20.8rem;
         border-radius: 16px;
         margin-bottom: 30px;
     }
-    
+
     .main-card .img-top {
         height: 160px;
     }
-    
+
     .main-card img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 16px 16px 0 0;
     }
-    
+
     .main-card .card-body .card-title {
         display: flex;
         justify-content: space-between;
         font-size: 17px;
         font-weight: 700;
     }
-    
+
     .card-body .card-title span {
         color: #2B2B43;
     }
+
     .card-body .card-title i {
         color: #C7C8D2;
     }
-    
+
     .main-card .card-body .card-text {
         display: flex;
         gap: 10px;
@@ -885,7 +865,7 @@ form i {
     .card-text .info {
         font-size: 15px;
     }
-    
+
     .card-body .btns {
         background: #EDEEF2;
         border-radius: 16px;
@@ -893,7 +873,7 @@ form i {
         display: flex;
         padding: 4px 14px;
     }
-    
+
     .card-body .btns .ico {
         width: 20px;
         height: 20px;
@@ -901,350 +881,342 @@ form i {
         align-items: center;
         margin-right: 10px;
     }
-    
-    .ico img {
-        object-fit: cover;
-    }
-    
-    /* -------------- MAIN-CONTAINER END------- */
-    /* -------------- MAIN END ------------ */
-    
-}
 
-@media only screen and (max-width: 576px) {
-    .home {
-        border: 2px solid green;
-        width: 100%;
-        min-height: 100vh;
-    }
-    
-    .navbar {
-        /* border: 1px solid red; */
-        /* border-bottom: 1px solid #EDEEF2; */
-    }
-    
-    .navbar .navbar-brand {
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 18px;
-    }
-    
-    .navbar .navbar-brand span {
-        color: #4E60FF;
-    }
-    
-    .nav-content {
-        width: 75%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nav-content form input {
-        display: none;
-        border-radius: 10px;
-        width: 190px;
-        background: #EDEEF2;
-        padding: 5px 10px 5px 8px;
-    }
-    
-    form i {
-        position: absolute;
-        bottom: 20px;
-        left: 33.3%;
-        color: #999;
-        font-size: 14px;
-    }
-    
-    .right-nav .nav {
-
-        margin-right: 24px;
-        display: none;
-    }
-    
-    .right-nav .nav li a {
-        color: #2B2B43;
-        padding: 5px 10px ;
-        font-size: 14px;
-        font-family: 'Nunito' sans-serif;
-        font-weight: bold;
-    }
-    
-    .right-nav .nav li:nth-child(2) {
-        border-right: 3px solid rgb(238, 236, 236);
-    }
-    
-    .right-nav .message {
-        width: 46px;
-        height: 46px;
-        border-radius: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #F3F4FF;
-        margin-right: 16px;
-    }
-    
-    .right-nav .message:hover {
-        border: 3px solid #4E60FF;
-        cursor: pointer;
-    }
-    
-    .right-nav .message .bi {
-        color: #4E60FF;
-        font-weight: bold;
-        font-size: 18px;
-    }
-    
-    .right-nav .avatar {
-        width: 46px;
-        height: 46px;
-        border-radius: 12px;
-        background-image: url('../img/avatar.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-right: 28px;
-    }
-
-    .right-nav .avatar::after {
-        content: "|";
-        position: relative;
-        left: 127%;
-        top: 30%;
-        width: 10px;
-        height: 44px;
-        color: #e6e8f9;
-        background: #e6e8f9;
-    }
-    
-    .right-nav .avatar img {
-        border: 1px solid #111;
-        width: 40px;
-        height: 40px;
-    
-    }
-
-    .hamburger-menu {
-        width: 46px;
-        height: 46px;
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #F3F4FF;
-    }
-
-    
-    
-    /* -------------- HEADER END------------ */
-    
-    
-    /* -------------- MAIN ------------ */
-    
-    .main-top {
-        min-height: 190px;
-    }
-    
-    .main-top .deserts-top {
-        margin: 20px 0 0 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .main-top .deserts-top .deserts-left {
-        width: 100%;
-        min-height: 280px;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 16px;
-        background: #F3F4FF;
-    }
-    
-    .card-left {
-        width: 280px;
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .card-left img {
-        object-fit: cover contain;
-    }
-    
-    
-    .deserts-left .card-right {
-        width: 100%;
-        height: 100%;
-        padding: 10px;
-        font-weight: bold;
-        display: grid;
-        grid-template-columns: 60% 40%;
-        grid-template-rows: 40px 40px;
-
-    }
-    
-    .card-right .card-title {
-        color: #2B2B43;
-        font-size: 18px;
-        letter-spacing: 0.1px;
-        margin-bottom: 8px;
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    
-    .card-right .card-percent {
-        height: auto;
-        color: #4E60FF;
-        font-size: 36px;
-        margin-bottom: 30px;
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    
-    .card-right .bottom-title {
-        display: flex;
-        flex-direction: row-reverse;
-        font-size: 14px;
-        color: #83859C;
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    
-    
-    .main-top .deserts-bottom {
-        border: 1px solid blue;
-        width: 100%;
-        min-height: 10vh;
-        padding: 10px 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .deserts-bottom .item {
-        border: 2px solid #EDEEF2;
-        width: 110px;
-        height: 80px;
-        border-radius: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 10px;
-        background: #F8F9FF;
-        margin: 10px 0;
-    
-    }
-    
-    .deserts-bottom .item .item-icon{
-        width: 35px;
-        height: 35px;  
-    }
-    
-    .deserts-bottom .item:hover{
-        border: 3px solid #4E60FF;
-        background: #F3F4FF;
-    }
-    
-    .deserts-bottom .item .item-title{
-        font-size: 13px;
-        font-family: 'Nunito';
-        font-weight: 700;
-    }
-    
-    /* -------------- MAIN-CONTAINER ---------- */
-    
-    .main-container .main-title {
-        padding: 20px 0;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: 'Nunito', sans-serif;
-        color: #2B2B43;
-    }
-    
-    .main-container .main-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .main-content .main-card {
-        border: 1px solid #EDEEF2;
-        width: 100%;
-        font-size: 18px;
-        border-radius: 16px;
-        margin-bottom: 30px;
-    }
-    
-    .main-card .img-top {
-        height: 160px;
-    }
-    
-    .main-card img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 16px 16px 0 0;
-    }
-    
-    .main-card .card-body .card-title {
-        display: flex;
-        justify-content: space-between;
-        font-size: 17px;
-        font-weight: 700;
-    }
-    
-    .card-body .card-title span {
-        color: #2B2B43;
-    }
-    .card-body .card-title i {
-        color: #C7C8D2;
-    }
-    
-    .main-card .card-body .card-text {
-        display: flex;
-        gap: 10px;
-        color: #83859C;
-        font-weight: 400;
-    }
-
-    .card-text .info {
-        font-size: 15px;
-    }
-    
-    .card-body .btns {
-        background: #EDEEF2;
-        border-radius: 16px;
-        width: 120px;
-        display: flex;
-        padding: 4px 14px;
-        font-size: 17px;
-    }
-    
-    .card-body .btns .ico {
-        width: 20px;
-        height: 20px;
-        display: flex;
-        align-items: center;
-        margin-right: 10px;
-    }
-    
     .ico img {
         object-fit: cover;
     }
 
-   
-    
     /* -------------- MAIN-CONTAINER END------- */
     /* -------------- MAIN END ------------ */
-    
 }
 
 
+    @media only screen and (max-width: 576px) {
+        .home {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        /* .navbar {
+        border: 1px solid red; 
+        border-bottom: 1px solid #EDEEF2; 
+         } */
+
+        .navbar .navbar-brand {
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 18px;
+        }
+
+        .navbar .navbar-brand span {
+            color: #4E60FF;
+        }
+
+        .nav-content {
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-content form input {
+            display: none;
+            border-radius: 10px;
+            width: 190px;
+            background: #EDEEF2;
+            padding: 5px 10px 5px 8px;
+        }
+
+        form i {
+            position: absolute;
+            bottom: 20px;
+            left: 33.3%;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .right-nav .nav {
+
+            margin-right: 24px;
+            display: none;
+        }
+
+        .right-nav .nav li a {
+            color: #2B2B43;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: bold;
+        }
+
+        .right-nav .nav li:nth-child(2) {
+            border-right: 3px solid rgb(238, 236, 236);
+        }
+
+        .right-nav .message {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #F3F4FF;
+            margin-right: 16px;
+        }
+
+        .right-nav .message:hover {
+            border: 3px solid #4E60FF;
+            cursor: pointer;
+        }
+
+        .right-nav .message .bi {
+            color: #4E60FF;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .right-nav .avatar {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            background-image: url('../img/avatar.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 28px;
+        }
+
+        .right-nav .avatar::after {
+            content: "|";
+            position: relative;
+            left: 127%;
+            top: 30%;
+            width: 10px;
+            height: 44px;
+            color: #e6e8f9;
+            background: #e6e8f9;
+        }
+
+        .right-nav .avatar img {
+            border: 1px solid #111;
+            width: 40px;
+            height: 40px;
+
+        }
+
+        .hamburger-menu {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F3F4FF;
+        }
 
 
-/* -------------------------------------------- */
-/* --------------- MEDIA QUERY END------------- */
+
+        /* -------------- HEADER END------------ */
+
+
+        /* -------------- MAIN ------------ */
+
+        .main-top {
+            min-height: 190px;
+        }
+
+        .main-top .deserts-top {
+            margin: 20px 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .main-top .deserts-top .deserts-left {
+            width: 100%;
+            min-height: 280px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 16px;
+            background: #F3F4FF;
+        }
+
+        .card-left {
+            width: 280px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .card-left img {
+            object-fit: cover contain;
+        }
+
+
+        .deserts-left .card-right {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            font-weight: bold;
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-template-rows: 40px 40px;
+
+        }
+
+        .card-right .card-title {
+            color: #2B2B43;
+            font-size: 18px;
+            letter-spacing: 0.1px;
+            margin-bottom: 8px;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .card-right .card-percent {
+            height: auto;
+            color: #4E60FF;
+            font-size: 36px;
+            margin-bottom: 30px;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        .card-right .bottom-title {
+            display: flex;
+            flex-direction: row-reverse;
+            font-size: 14px;
+            color: #83859C;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+
+        .main-top .deserts-bottom {
+            width: 100%;
+            min-height: 10vh;
+            padding: 10px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .deserts-bottom .item {
+            border: 2px solid #EDEEF2;
+            width: 110px;
+            height: 80px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            background: #F8F9FF;
+            margin: 10px 0;
+
+        }
+
+        .deserts-bottom .item .item-icon {
+            width: 35px;
+            height: 35px;
+        }
+
+        .deserts-bottom .item:hover {
+            border: 3px solid #4E60FF;
+            background: #F3F4FF;
+        }
+
+        .deserts-bottom .item .item-title {
+            font-size: 13px;
+            font-family: 'Nunito';
+            font-weight: 700;
+        }
+
+        /* -------------- MAIN-CONTAINER ---------- */
+
+        .main-container .main-title {
+            padding: 20px 0;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Nunito', sans-serif;
+            color: #2B2B43;
+        }
+
+        .main-container .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .main-content .main-card {
+            border: 1px solid #EDEEF2;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+        }
+
+        .main-card .img-top {
+            height: 160px;
+        }
+
+        .main-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 16px 16px 0 0;
+        }
+
+        .main-card .card-body .card-title {
+            display: flex;
+            justify-content: space-between;
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .card-body .card-title span {
+            color: #2B2B43;
+        }
+
+        .card-body .card-title i {
+            color: #C7C8D2;
+        }
+
+        .main-card .card-body .card-text {
+            display: flex;
+            gap: 10px;
+            color: #83859C;
+            font-weight: 400;
+        }
+
+        .card-text .info {
+            font-size: 15px;
+        }
+
+        .card-body .btns {
+            background: #EDEEF2;
+            border-radius: 16px;
+            width: 120px;
+            display: flex;
+            padding: 4px 14px;
+            font-size: 17px;
+        }
+
+        .card-body .btns .ico {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .ico img {
+            object-fit: cover;
+        }
+
+
+
+        /* -------------- MAIN-CONTAINER END------- */
+        /* -------------- MAIN END ------------ */
+    }

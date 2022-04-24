@@ -17,31 +17,31 @@ const Navbar = () => {
             {/* <i className="bi bi-search"></i> */}
           </form>
           <div className="right-nav d-flex">
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+            <ul className="nav justify-content-end">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   Restaurants
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Deals
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   My orders
                 </a>
               </li>
             </ul>
             <div className="message">
-              <i class="bi bi-cart3"></i>
+              <i className="bi bi-cart3"></i>
             </div>
             <div className="avatar border-outline-light">
               {/* <img src="./img/avatar.jpg"   alt="" /> */}
             </div>
             <div className="hamburger-menu">
-            <i class="bi bi-list"></i>
+            <i className="bi bi-list"></i>
             </div>
           </div>
         </div>

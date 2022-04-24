@@ -96,7 +96,7 @@ const Main = () => {
                   <div className="card-body">
                         <h5 className="card-title">
                           <span>{item.cardTitle}</span>
-                          <i class="bi bi-cart-plus"></i>
+                          <i className="bi bi-cart-plus"></i>
                         </h5>
                         <p className="card-text">
                           <i className="bi bi-clock"></i>
