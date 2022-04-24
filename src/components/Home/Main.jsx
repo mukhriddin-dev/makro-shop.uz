@@ -89,18 +89,6 @@ const Main = () => {
         <div className="main-container">
           <div className="main-title">Nearby restaurants</div>
           <div className="main-content">
-            <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-
             {mainCardApi.map((item)=> (
                 <div className="card main-card">
                 <div className="img-top">
@@ -128,10 +116,8 @@ const Main = () => {
                   </div>
               </div>
             ))}
-          </div>
         </div>
       </div>
-    </div>
     </div>
     </div>
     </>
