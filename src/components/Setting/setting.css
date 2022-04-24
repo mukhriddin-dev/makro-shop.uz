@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.settings{
+height: 100vh;
+}
+.left-blog{
+    height: 60vh;
+}
+.sidebar_item{
+    border-radius: 20px;
+    border: 1px solid rgba(192, 192, 192, 0.368);
+    height: 20%;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+.sidebar_item:hover{
+border:1px solid blue;
+}
+.sidebar-icon{
+    height: 75%;
+    border-radius: 20px;
+    background-color: #EDEEF2;
+}
+.icon{
+    font-size: 30px;
+    margin-left: -10px;
+    color: #83859C;
+}
+.icon_two{
+    font-size: 30px;
+    margin-left: -13px;
+    color: #83859C;
+}
+.right_blog{
+    height: auto;
+}
+.account_blog{
+    height: 100vh;
+    border-radius:12px;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.account_changes{
+    height: 23%;
+}
+.account_inputs{
+    height: 25%;
+    width: 100%
+}
+.account_input{
+    width: 44%;
+}
+.check_box{
+    height: 30%;
+    width: 100%;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.318);
+}
+.checkBox_helper{
+    margin-top: 4rem;
+}
+.account_ending{
+    height: 10%;
+    width: 100%;
+}
+.setting_avatar{
+    width: 25%;
+    height: 70%;
+    border-radius: 20px;
+    background-image: url(../img/avatar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width:1024px){
+    .right_blog{
+        height: 100vh;
+    }
+    .account_changes{
+        height: 23%;
+
+    }
+    .account_inputs{
+        height: 25%;
+        width: 100%;
+    }
+    .account_input{
+        width: 44%;
+    }  
+    .setting_avatar{
+        width: 25%;
+        height: 70%;
+    }
+}
+@media only screen and (max-width:992px){
+    .right_blog{
+        height: 100vh;
+    }
+    .account_changes{
+        height: 23%;
+    }
+    .account_inputs{
+        height: 25%;
+        width: 100%;
+    }
+    .account_input{
+        width: 44%;
+    }
+    .setting_avatar{
+        width: 25%;
+        height: 70%;
+    }
+}
+@media only screen and (max-width:768px){
+    .right_blog{
+        height: 100vh;
+    }
+    .account_changes{
+        height: 23%;
+    }
+    .account_inputs{
+        height: 25%;
+        width: 100%;
+    }
+    .account_input{
+        width: 44%;
+    }
+    .setting_avatar{
+        width: 25%;
+        height: 70%;
+    }
+}
+@media only screen and (max-width:576px){
+    .right_blog{
+        height: 100vh;
+    }
+    .account_changes{
+        height: 20%;
+
+    }
+    .account_inputs{
+        height: 40%;
+        width: 100%;
+    }
+    .account_input{
+        width: 90%;
+    }
+    .setting_avatar{
+        width: 25%;
+        height: 70%;
+    }
+}
+
