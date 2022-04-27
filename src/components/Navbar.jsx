@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -37,9 +38,9 @@ const Navbar = () => {
             <div className="message">
               <i className="bi bi-cart3"></i>
             </div>
-            <div className="avatar border-outline-light">
+            <Link to="/setting/account" className="avatar border-outline-light">
               {/* <img src="./img/avatar.jpg"   alt="" /> */}
-            </div>
+            </Link>
             <div className="hamburger-menu">
             <i className="bi bi-list"></i>
             </div>
